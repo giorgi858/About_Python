@@ -65,16 +65,44 @@ dictionary = {
 
 # print(type(True))
 
-def math_example(*args, **kwargs):
-    if kwargs['operation'] == 'sum':
-        print(sum(args))
-        return sum(args)
-    if kwargs['operation'] == 'multiply' and kwargs['message'] == 'success':
-        print(math.prod(args))
-        return  math.prod(args)
+# def math_example(*args, **kwargs):
+#     if kwargs['operation'] == 'sum':
+#         print(sum(args))
+#         return sum(args)
+#     if kwargs['operation'] == 'multiply' and kwargs['message'] == 'success':
+#         print(math.prod(args))
+#         return  math.prod(args)
         
-    else:
-        return print('We have an Error')
+#     else:
+#         return print('We have an Error')
     
-math_example(2,100, operation='multiply', message='success')
+# math_example(2,100, operation='multiply', message='success')
 
+
+# original_list = []
+
+# numb = {number: number**2 for number in range(1, 21)}
+# print(numb)
+
+# # numbers = [x * 2 for x in randome_numb]
+# # original_list.append(numbers)
+# # print(original_list)
+
+# for x in range(1, 11):
+#     square = x ** 2
+#     original_list.append(square)
+
+# print(original_list)
+
+
+# my_list = []
+
+# for first_list in range(10):
+#     my_info = { 'name': 'giorgi', 'lastname': 'mtsituri' }
+#     my_list.append(my_info)
+
+
+# for begining_list in my_list[:3]:
+#     print(begining_list)
+
+# print('....')
