@@ -203,12 +203,12 @@ Data → attributes (variables)
 
 Behavior → methods (functions)
 
-## 🔐 What is JWT?
+# 🔐 What is JWT?
 
 JWT (JSON Web Token) is a way to securely send data between client and server.
 It is mostly used for authentication in APIs, especially in Django, FastAPI, Node.js, etc.
 
-# Example use:
+## Example use:
 
 Login
 Authorization
@@ -217,7 +217,7 @@ Access / Refresh tokens
 
 ## 🔄 How JWT works (Django example)
 
-# Step 1 — login
+## Step 1 — login
 
 POST /api/token/
 username
@@ -228,22 +228,27 @@ Server returns:
 access token
 refresh token
 
-# Step 2 — use token
+## Step 2 — use token
 
 GET /api/todos/
 Authorization: Bearer ACCESS_TOKEN
 
 Server checks token → OK → returns data
 
-# Step 3 — refresh token
+## Step 3 — refresh token
 
 POST /api/token/refresh/
 
 Get new access token.
 
 ## Four Main Principles of Object-Oriented Programming (OOP)
-Principle -  Meaning
-Encapsulation -  Hide data and control access
-Inheritance -  Reuse code from another class
-Polymorphism -  Same method, different behavior
-Abstraction  - Hide complexity
+
+### Principle - Meaning
+
+### Encapsulation - Hide data and control access
+
+### Inheritance - Reuse code from another class
+
+### Polymorphism - Same method, different behavior
+
+### Abstraction - Hide complexity
