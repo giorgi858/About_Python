@@ -252,3 +252,15 @@ Get new access token.
 ### Polymorphism - Same method, different behavior
 
 ### Abstraction - Hide complexity
+
+## ✅ Difference between modes
+
+with open('city.txt', 'a') as file:
+
+| Mode   | Meaning        |
+| ------ | -------------- |
+| `'w'`  | overwrite file |
+| `'a'`  | append to file |
+| `'r'`  | read only      |
+| `'r+'` | read + write   |
+| `'a+'` | append + read  |
